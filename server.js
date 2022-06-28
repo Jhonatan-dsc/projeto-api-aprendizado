@@ -19,14 +19,14 @@ app.get('/', (req, res) =>{
     return res.json([ 
       
         //    
-        { Motorista: 'João Silva'},
-        { carro:'fiat agro', cor:'azul', placa: 'XYZ01'},
+        { Motorista: 'fulano'},
+        { carro:'Esportivo', cor:'azul', placa: 'XYZ'},
         //
-        {data_de_inicio: ' 25/12/2022 às 13:00'},
-        {data_de_termino: '25/12/2022 às 18:00'},
+        {data_de_inicio: ' data às horario'},
+        {data_de_termino: 'data às horario'},
         //
-        {motorista_que_utilizou: 'João Silva'},
-        {automovel_utilizado:'Fiat Agro'}
+        {motorista_que_utilizou: 'Fulano'},
+        {automovel_utilizado:'Eportivo'}
 
     ])
     
