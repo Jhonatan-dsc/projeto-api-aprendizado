@@ -32,4 +32,4 @@ app.get('/', (req, res) =>{
     
     
 })
-app.listen(4567)
+app.listen("$port")
